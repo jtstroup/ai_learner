@@ -1,18 +1,18 @@
 # ai_learner
 * So begins my documentation AI learning into the field of AI. AI is vast and continually evolving. This is my page to build a foundational understanding of AI with some deep dives into specific topics of interest.
 
-# Tools
+## Tools
 - Google Colab - set open -> github -> jtstroup/ai_learner -> {branch name} and select any notebook
 - Gradio
 
-# Foundations of AI and ML
-- [__Foundations of AI and ML__](./Foundations of AI and ML) __Foundations of AI and ML__
+## Foundations of AI and ML
+- [Foundations of AI and ML](./Foundations of AI and ML) **Foundations of AI and ML**
   - History of AI
   - Mathematical Foundations
 
-# _Artificial Intelligence (AI) and Advanced Topics__
+## _Artificial Intelligence (AI) and Advanced Topics__
 
-# _Natural Language Processing (NLP)__   
+## _Natural Language Processing (NLP)__   
 - __Word Embeddings__   
 - __Text Classification__
 - __Language Modeling__
@@ -27,7 +27,7 @@
 - __Summarization__
 
 
-# _Machine Learning__
+## _Machine Learning__
 - __Transfer Learning__
 - __Reinforcement Learning__
 - __Neural Networks and Deep Learning__
@@ -45,7 +45,7 @@
 - __Self-Supervised Learning__
 
 
-# _Data Science__
+## _Data Science__
 - __Preprocessing and Feature Engineering__
 - __Clustering and Dimensionality Reduction__
 - __Time Series Analysis__
@@ -53,17 +53,17 @@
 - __Tools and Frameworks__
 - __Case Studies and Applications__
 
-# _Robotics and Autonomous Systems__
+## _Robotics and Autonomous Systems__
 - __Robotics Control Systems__
 - __SLAM (Simultaneous Localization and Mapping)__
 - __Human-Robot Interactions__
 
-# _Computer Vision Techniques__
+## _Computer Vision Techniques__
 - __Image Segmentation__
 - __Pose Estimation__
 - __3D Computer Vision__
 
-# _Emerging Areas in AI__
+## _Emerging Areas in AI__
 - __Quantum Machine Learning__
 - __Neurosymbolic AI__
 - __Edge AI__
