@@ -6,13 +6,13 @@
 - Gradio
 
 ## Foundations of AI and ML
-- [Foundations of AI and ML](./ai_ml_foundations) **Foundations of AI and ML**
+- [Foundations of AI and ML](./ai_ml_foundations)
   - History of AI
   - Mathematical Foundations
 
-## _Artificial Intelligence (AI) and Advanced Topics__
+## [Artificial Intelligence (AI) and Advanced Topics](./ai_adv_topics)
 
-## _Natural Language Processing (NLP)__   
+## [Natural Language Processing (NLP)](./natural_language_processing/)
 - __Word Embeddings__   
 - __Text Classification__
 - __Language Modeling__
@@ -27,7 +27,7 @@
 - __Summarization__
 
 
-## _Machine Learning__
+## [Machine Learning](./machine_learning/)
 - __Transfer Learning__
 - __Reinforcement Learning__
 - __Neural Networks and Deep Learning__
@@ -45,7 +45,7 @@
 - __Self-Supervised Learning__
 
 
-## _Data Science__
+## [Data Science](./data_science/)
 - __Preprocessing and Feature Engineering__
 - __Clustering and Dimensionality Reduction__
 - __Time Series Analysis__
@@ -53,31 +53,31 @@
 - __Tools and Frameworks__
 - __Case Studies and Applications__
 
-## _Robotics and Autonomous Systems__
+## [Robotics and Autonomous Systems](./robotics_autonomous/)
 - __Robotics Control Systems__
 - __SLAM (Simultaneous Localization and Mapping)__
 - __Human-Robot Interactions__
 
-## _Computer Vision Techniques__
+## [Computer Vision Techniques](./computer_vision_techniques/)
 - __Image Segmentation__
 - __Pose Estimation__
 - __3D Computer Vision__
 
-## _Emerging Areas in AI__
+## [Emerging Areas in AI](./emerging_areas/)
 - __Quantum Machine Learning__
 - __Neurosymbolic AI__
 - __Edge AI__
 
-# _AI in Domains__
+# [AI in Domains](./domains/)
 - __Medical Image Analysis__
 - __Algorithmic Trading__
 - __AI for Social Good__
 
-# _AI Safety and Security__
+# [AI Safety and Security](./safety_security/)
 - __Adversarial Attacks and Defenses__
 - __Model Robustness__
 - __Bias and Fairness in AI__
 
-# _AI Infrastructure and Deployment__
+# [AI Infrastructure and Deployment](./infrastructure_deployment/)
 - __MLOps__
 - __AI Hardware Accelerators__
