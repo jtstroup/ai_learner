@@ -6,7 +6,7 @@
 - Gradio
 
 ## Foundations of AI and ML
-- [Foundations of AI and ML](./Foundations of AI and ML) **Foundations of AI and ML**
+- [Foundations of AI and ML](./ai_ml_foundations) **Foundations of AI and ML**
   - History of AI
   - Mathematical Foundations
 
