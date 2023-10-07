@@ -5,8 +5,7 @@
 - Google Colab - set open -> github -> jtstroup/ai_learner -> {branch name} and select any notebook
 - Gradio
 
-## Foundations of AI and ML
-- [Foundations of AI and ML](./ai_ml_foundations)
+## [Foundations of AI and ML](./ai_ml_foundations)
   - History of AI
   - Mathematical Foundations
 
