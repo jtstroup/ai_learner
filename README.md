@@ -1,5 +1,7 @@
 # ai_learner
-* So begins my documentation AI learning into the field of AI. AI is vast and continually evolving. This is my page to build a foundational understanding of AI with some deep dives into specific topics of interest.
+* So begins my documentation AI learning into the field of AI. AI is vast and continually evolving. This is my page to build a foundational understanding of AI with some deep dives into specific topics of interest. 
+
+NOTE: This is my personal learning path that I share for educational purposes.
 
 ## Tools
 - Google Colab - set open -> github -> jtstroup/ai_learner -> {branch name} and select any notebook
@@ -45,6 +47,7 @@
 
 
 ## [Data Science](./data_science/)
+- https://www.coursera.org/articles/data-science-vs-machine-learning?trk_ref=articles_unified_description_page_recs_card
 - __Preprocessing and Feature Engineering__
 - __Clustering and Dimensionality Reduction__
 - __Time Series Analysis__
