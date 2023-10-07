@@ -2,12 +2,13 @@
 * So begins my documentation AI learning into the field of AI. AI is vast and continually evolving. This is my page to build a foundational understanding of AI with some deep dives into specific topics of interest.
 
 # Tools
-    - Google Colab - set open -> github -> jtstroup/ai_learner -> {branch name} and select any notebook
-    - Gradio
+- Google Colab - set open -> github -> jtstroup/ai_learner -> {branch name} and select any notebook
+- Gradio
 
-# [__Foundations of AI and ML__](./Foundations of AI and ML)_Foundations of AI and ML__
-- __History of AI__
-- __Mathematical Foundations__
+# Foundations of AI and ML
+- [__Foundations of AI and ML__](./Foundations of AI and ML) __Foundations of AI and ML__
+  - History of AI
+  - Mathematical Foundations
 
 # _Artificial Intelligence (AI) and Advanced Topics__
 
