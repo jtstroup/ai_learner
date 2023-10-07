@@ -68,16 +68,16 @@
 - __Neurosymbolic AI__
 - __Edge AI__
 
-# [AI in Domains](./domains/)
+## [AI in Domains](./domains/)
 - __Medical Image Analysis__
 - __Algorithmic Trading__
 - __AI for Social Good__
 
-# [AI Safety and Security](./safety_security/)
+## [AI Safety and Security](./safety_security/)
 - __Adversarial Attacks and Defenses__
 - __Model Robustness__
 - __Bias and Fairness in AI__
 
-# [AI Infrastructure and Deployment](./infrastructure_deployment/)
+## [AI Infrastructure and Deployment](./infrastructure_deployment/)
 - __MLOps__
 - __AI Hardware Accelerators__
