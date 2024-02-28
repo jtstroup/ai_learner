@@ -33,7 +33,10 @@ NOTE: This is my personal learning path that I share for educational purposes.
 - __Reinforcement Learning__
 - __Neural Networks and Deep Learning__
 - __Generative Adversarial Networks (GANs)__
-- __Retrieval Augmented Generation
+- __Vector Databases__
+- __Langchain__
+- __LLMs__
+- __Retrieval Augmented Generation__
 - __Ensemble Methods__
 - __Optimization Techniques__
 - __Anomaly Detection__
@@ -45,6 +48,7 @@ NOTE: This is my personal learning path that I share for educational purposes.
 - __Meta-Learning__
 - __Few-Shot and Zero-Shot Learning__
 - __Self-Supervised Learning__
+- __Training and Fine-tuning LLMs__
 
 
 ## [Data Science](./data_science/)
