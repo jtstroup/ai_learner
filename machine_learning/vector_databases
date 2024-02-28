@@ -1,0 +1,35 @@
+Vector databases are crucial in AI and ML, they are specialied storage systems to store and search, and analyze  high-dimensional vector data. They are really useful for recommendation systems, image and text analysis and more. A few
+- Chroma (open source, embedded db)
+- Pinecone (managed, high scalability and low latency search)
+- Weaviate (open source, high scalability)
+- Faiss (open source, can search within vector sets of varying sizes)
+- Qdrant A versatile API -- My recommendation
+- Milvus (open source, designed for vector embedding, high scalibility and low latency)  - 
+- Vespa - (full featured search engine, vector search (ANN), lexical search in strucured data)
+- AWS Elasticsearch - not exclusively vector, but supports vector search capabilities, RESTful search and analytics engine for multiple use cases
+
+High-Dimensional Spaces
+- High-dimensional space: space with many dimensions, as opposed to a single dimension view. For example, an image is high-dimensional with each dimension corresponding to the intensity of a pixel or particular feature that you extract
+- Sparsity: Dimensions have zero or near-zero values. Sparsity is a reflection of the fact that not all features are relevant for every data point
+
+Vector Database features to look for: 
+- Cloud support for scalabilty and upgradability (free upgrades/features)
+- Native compression (Lazy NumPy-indexing)
+- Version Control
+- Data loaders
+- Supporting Deep Learning Frameworks
+
+
+Usage: 
+- Feature Extraction: high-dimensional vectors are generated through a the process known as feature extraction, raw data (like pixels of a image) are transformed into structured format that ML models can understand and process
+
+- Embeddings: High-dimensional vectors are also "embeddings" which is the transformation of raw data into a dense vector of floating-point values. The goal of a "embedding" is to capture the semantic relationship between data points in a way that positions similar items closer togetner in the vector space. 
+
+Challenges and Solutions:
+- Curse of dimensionality: this refers to various phenomena that arises when analyzing and organizing data in high-dimensional spaces. For example, if the volume of space increases so fast that available data becomes "sparse", this makes it difficult to find patterns without a signifcantly larger amount of data
+- Dimensionality reduction: Techniques like PCA (Principal Component Analysis), t-SNE(t-distributed Stochastic Neighbor Embedding), and autoencoders are used to reduce the dimensiionality of the data. These methods aims to ""preserve the essential characteristics of data while reducing the number of dimensions"", thereby mitigating some of the challenges of high-dimensional data analysis
+
+Application: 
+- Similarity search: find items similar to query item by measuring the distance between their vectors in high-dimensional space
+- Recommendation systems: Suggesting items to users based on similarity of their embeddings to those items the user has interacted with
+- Natural Language Processing (NLP): words, sentences, documents can be reprsented as high-dimensional vectors, capturing semantic meaning and relationships
