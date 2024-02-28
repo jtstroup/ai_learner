@@ -33,6 +33,7 @@ NOTE: This is my personal learning path that I share for educational purposes.
 - __Reinforcement Learning__
 - __Neural Networks and Deep Learning__
 - __Generative Adversarial Networks (GANs)__
+- __Retrieval Augmented Generation
 - __Ensemble Methods__
 - __Optimization Techniques__
 - __Anomaly Detection__
