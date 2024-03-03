@@ -1,0 +1,25 @@
+# Jargons
+- Q-learning update rule
+-- Adjust the estimated Q-values based on the predicted and the actual current Q-values plus the predicted highest next Q-Value.
+- TD Error
+-- The difference between the estimated value of the reward and the actual value of the reward after taking an action
+- Catastrophic forgetting
+-- A phenomenon where an agent forgets what it learned in the previous environment in order to adapt to the new environement
+- Experience Replay
+-- Agent revisit past experiences and relearn from them, while the agent is still learning from new experiences
+- Target Q-Network
+--
+# Q-Functions
+- How is DeepMind's Q functions different from the traditional Q function? 
+-- Deepminds' Q function only takes in a state, and return the predicted rewared for all possible action in that state
+-- Traditional Q functions: takes state-action paire and return the predicted reward
+- Why is the maximum expected future reward for the next state used in the Q-learning update rule?
+-- The optimal value for a state-action pair is the expected reward for taking that action plus the maximum expected reward for the resulting staet
+- What would be the consequences of not taking into account the maximum expected future rward for the next state in the Q-learning update rule?
+-- Only influenced by immediate rewards
+-- Not able to evaluate the long-term consequences of it's actions
+- What does experience replay stores? 
+-- State, action, reward, next state
+- Regular Q-networks vs Target Q-Networks
+-- Target Q-Network can constantly adapt to changes in the environment 
+-- Regular Q-Network is less stable when changing the environment
