@@ -27,15 +27,16 @@ async def main():
     print(await fetch_url('https://www.example.com'))
 
 asyncio.run(main())
+```
 
-Scalability Concerns with AIOHTTP
-AIOHTTP requires handling asynchronous execution contexts and sessions, adding complexity.
-This complexity can be a barrier for teams not familiar with async programming in Python.
-Introduction to HTTPX
-HTTPX blends the simplicity of requests with AIOHTTP's async capabilities, supporting both synchronous and asynchronous requests, making it a versatile choice.
+## Scalability Concerns with AIOHTTP
+- AIOHTTP requires handling asynchronous execution contexts and sessions, adding complexity.
+-  This complexity can be a barrier for teams not familiar with async programming in Python.
 
-python
-Copy code
+## Introduction to HTTPX
+- HTTPX blends the simplicity of requests with AIOHTTP's async capabilities, supporting both synchronous and asynchronous requests, making it a versatile choice.
+
+```python
 import httpx
 
 def fetch_url(url):
@@ -44,9 +45,9 @@ def fetch_url(url):
 
 print(fetch_url('https://www.example.com'))
 For asynchronous usage:
+```
 
-python
-Copy code
+```python
 import httpx
 import asyncio
 
@@ -59,16 +60,21 @@ async def main():
     print(await fetch_url('https://www.example.com'))
 
 asyncio.run(main())
-Why HTTPX Stands Out
-Flexibility: Offers both synchronous and asynchronous requests.
-Ease of Use: Features a user-friendly API similar to requests.
-Connection Pooling and HTTP/2 Support: Enhances performance with advanced features out-of-the-box.
-Future-Proof: Incorporates modern web communication standards like async/await syntax and HTTP/2.
-HTTPX in LLM Development
-HTTPX is ideal for LLM applications that demand high-volume, concurrent API interactions, thanks to its ability to switch between synchronous and asynchronous requests and its support for HTTP/2.
-Conclusion
-HTTPX represents a modern, efficient, and scalable choice for HTTP requests in Python, balancing simplicity with powerful asynchronous programming capabilities.
-References
-Requests: https://pypi.org/project/requests/
-AIOHTTP: https://docs.aiohttp.org/en/stable/
-HTTPX: https://www.python-httpx.org/
+```
+
+## Why HTTPX Stands Out
+- Flexibility: Offers both synchronous and asynchronous requests.
+-  Ease of Use: Features a user-friendly API similar to requests.
+- Connection Pooling and HTTP/2 Support: Enhances performance with advanced features out-of-the-box.
+- Future-Proof: Incorporates modern web communication standards like async/await syntax and HTTP/2.
+
+## HTTPX in LLM Development
+- HTTPX is ideal for LLM applications that demand high-volume, concurrent API interactions, thanks to its ability to switch between synchronous and asynchronous requests and its support for HTTP/2.
+
+## Conclusion
+- HTTPX represents a modern, efficient, and scalable choice for HTTP requests in Python, balancing simplicity with powerful asynchronous programming capabilities.
+
+## References
+- Requests: https://pypi.org/project/requests/
+- AIOHTTP: https://docs.aiohttp.org/en/stable/
+- HTTPX: https://www.python-httpx.org/
