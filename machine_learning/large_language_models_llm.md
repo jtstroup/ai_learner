@@ -1,6 +1,17 @@
-Large Language Models train on huge amounts of data with the aim to learn all the conditional dconditions to allow them to generalize and generate meaning, without direct memorization of the training data. The LLM's knowledge is restricted to it's training set. 
+# The LLMs
+- Large Language Models train on huge amounts of data with the aim to learn all the conditional conditions to allow them to generalize and generate meaning, without direct memorization of the training data. The LLM's knowledge is restricted to it's training set. 
 
-Thus if a model is trained up to 2023, like ChatGPT, then you ask something about 2023, this may generate a plausible but fabricated description. This is known as a "hallucination". So accuracy and reliability are paramount in things like chatbots, knowledge-based assistants, or AI tutorsz
+- Thus if a model is trained up to 2023, like ChatGPT, then you ask something about 2023, this may generate a plausible but fabricated description. This is known as a "hallucination". So accuracy and reliability are paramount in things like chatbots, knowledge-based assistants, or AI tutorsz
+
+- You invoke 
+
+
+
+
+
+
+
+
 
 
 LLMs and NLP
