@@ -27,7 +27,7 @@
 - Each word is process with a Neural network to get context
 - Works on windows!
 - Processing works like
--- "The" --> "The dog jumps on my lap"
+-- "The" --> "The dog jumps on my lap" 
 -- "dog" --> "The dog jumps on my lap"
 -- "jumps" --> "The dog jumps on my lap"
 
@@ -35,6 +35,17 @@
 -- second pass will have the index move to dog and takes the next two words on the right "The dog jumps on" and the previous word "the"
 -- third pass will have the index move to jumps and next two words are "on my" and the past two words are "the dog" 
 -- This allows tagging with a number or weight to be added and increase large text. 
+# Positional Encoding (multiheaded attnetion)
+- "The" --> [0.11],[-13],[1.33] -- > 1 - "The" 
+- "dog" --> [-0.15],[-1.22],[3.1] -- > 2 - "dog" 
+- "jumps" -->[-0.18],[-1.19],[3.33] -- > 3 - "jumps"
+- "!" --> [-0.23],[2.1],[2.13] -- > 4 - "!"
+
+# Multi-headed attention
+- The bank account earned interest
+- J showed interested in book
+
+
 # Emergence of Transformer model (https://arxiv.org/pdf/1706.03762.pdf) 
 - transformer has an encoder and decoder, each is made up from multiple layers of self-attention and feedforward neural networks. 
 - Self-attention: weigh the importance of words to different words in a sesntence based on affinity with each other. Thus having the AI focus on the most relevant parts of text rather then reading it linearly
@@ -51,3 +62,20 @@
 - Difficulty in interpretation and debugging because the attention model is locked over the entire input sequence
 - Prone to overfitting when fine-tuned on small amounts of task-specific data
 
+# A Transformer Process
+- Input sequence - convert to embeddings (with positional encoding) and feed to next encoder
+- A stack of encoders are created and process everything and produces an encoded represntaion of the input sequence
+- The target sequence is prepended with a start-of-sentence token, converted into embeddings (with pos enc) and fed to the decoders
+- Stack of decoders process this along with encoder stack representation to produce an encoded representation of target sequence
+- The output layer converts it into word probabilities and the final output sequence
+- Transformers Loss function compares this output sentence to target sequence from training data. This loss is used to generate gradiente to train the transformer during back-propagation
+
+# Inference
+- This is where we don' have the target sequence to pass as input to the decoder, so in a Seq2Seq model, we generate the output in a loop and feed the output sequence from previous timestep to decoder in next timestep until end-of-sentence token, the difference from Seq2Seq is at each timestep we re-feed the entire output sequence generated thus far, rather then just last word
+- Input sequence - convert to embeddings (with positional encoding) and feed to next encoder
+- A stack of encoders are created and process everything and produces an encoded represntaion of the input sequence
+- ```instead of target sequence```, we use empty sequence with only start of sentence token, converted to emb
+- Stack of decoders process this along with encoder stack representation to produce an encoded representation of target sequence
+- The output layer converts it into word probabilities and the final output sequence
+- Take last word out of output seence as predicted work, that word is filled into second postion 
+- Transformers Loss function compares this output sentence to target sequence from training data. This loss is used to generate gradiente to train the transformer during back-propagation
