@@ -1,6 +1,6 @@
 # General Principles of NLP
-- Tokens
--- Where you break down language into components, attach numbers to them, so the machine can process the information. This is known as preprocessing or tokenization
+# Tokenize
+- Break down language into components, attach numbers to them, so the machine can process the information. This is known as preprocessing or tokenization
 - Token Approaches
 -- Normalizing text
 --- Removing punctuation, low value words like 'the'
@@ -13,7 +13,7 @@
 -- Topic modelling
 --- This is creating structured data from a collection of unstructured data
 
-- Recurrent Neural Networks (RNNs)
+# Recurrent Neural Networks (RNNs)
 -- "I" "like" "pizza" 
 -- RNN then turns a word like "I", into a numeric value
 -- Then the output includes the next word "like" and includes the value "I" and placed in another RNN
@@ -46,7 +46,7 @@
 - J showed interested in book
 
 
-# Emergence of Transformer model (https://arxiv.org/pdf/1706.03762.pdf) 
+# Emergence of Transformer model (https://arxiv.org/pdf/1706.03762.pdf) (2017)
 - transformer has an encoder and decoder, each is made up from multiple layers of self-attention and feedforward neural networks. 
 - Self-attention: weigh the importance of words to different words in a sesntence based on affinity with each other. Thus having the AI focus on the most relevant parts of text rather then reading it linearly
 - Positional bias - allows model to keep track of relative positions of words in a sentence. This is important because the order of words in a sentence can significantly impact meaning.
