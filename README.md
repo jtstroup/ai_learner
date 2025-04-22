@@ -1,90 +1,26 @@
-# ai_learner
-* So begins my documentation AI learning into the field of AI. AI is vast and continually evolving. This is my page to build a foundational understanding of AI with some deep dives into specific topics of interest. 
+## 2025 AI Articles and Resources
 
-NOTE: This is my personal learning path that I share for educational purposes.
+### Articles
+- [Agentic AI: The Evolution of Autonomous Systems](articles/agentic_ai.md)
+- [Practical Applications of Large Language Models in 2025](articles/practical_llm_applications.md)
+- [The Convergence of Computer Vision and NLP](articles/computer_vision_nlp_convergence.md)
+- [Data Engineering Best Practices for AI Systems](articles/data_engineering_best_practices.md)
+- [Edge AI and the Future of Distributed Computing](articles/edge_ai_distributed_computing.md)
+- [Quantum Machine Learning: From Theory to Practice](articles/quantum_machine_learning.md)
+- [AI Ethics and Governance in the Age of Autonomous Agents](articles/ai_ethics_governance.md)
+- [The Role of AI in Climate Change Mitigation](articles/ai_climate_change_mitigation.md)
 
-## Tools
-- Google Colab - set open -> github -> jtstroup/ai_learner -> {branch name} and select any notebook
-- Gradio
+### Interactive Infographics
+- [Agentic AI Infographic](infographics/agentic_ai_infographic.html)
+- [Practical LLM Applications Infographic](infographics/practical_llm_applications_infographic.html)
+- [Computer Vision & NLP Convergence Infographic](infographics/computer_vision_nlp_infographic.html)
+- [Data Engineering Best Practices Infographic](infographics/data_engineering_infographic.html)
+- [Edge AI Infographic](infographics/edge_ai_infographic.html)
+- [Quantum Machine Learning Infographic](infographics/quantum_ml_infographic.html)
+- [AI Ethics and Governance Infographic](infographics/ai_ethics_infographic.html)
+- [AI for Climate Change Infographic](infographics/ai_climate_infographic.html)
 
-## [Foundations of AI and ML](./ai_ml_foundations)
-  - History of AI
-  - Mathematical Foundations
-
-## [Artificial Intelligence (AI) and Advanced Topics](./ai_adv_topics)
-
-## [Natural Language Processing (NLP)](./natural_language_processing/)
-- __Word Embeddings__   
-- __Text Classification__
-- __Language Modeling__
-- __Seq2seq and Attention__
-- __Sentiment Analysis__
-- __Named Entity Recognition (NER)__
-- __Topic Modeling__
-- __Speech Recognition and Processing__
-- __Natual Language Generation (NLG)__
-- __Chatbots and Conversational AI__
-- __Question Answering Systems__
-- __Summarization__
-
-
-## [Machine Learning](./machine_learning/)
-- __Transfer Learning__
-- __Reinforcement Learning__
-- __Neural Networks and Deep Learning__
-- __Generative Adversarial Networks (GANs)__
-- __Vector Databases__
-- __Langchain__
-- __LLMs__
-- __Retrieval Augmented Generation__
-- __Ensemble Methods__
-- __Optimization Techniques__
-- __Anomaly Detection__
-- __Graph-based Models__
-- __Bayesian Learning__
-- __Active Learning and Semi-Supervised Learning__
-- __ML Audio__
-- __Diffusion Models__
-- __Meta-Learning__
-- __Few-Shot and Zero-Shot Learning__
-- __Self-Supervised Learning__
-- __Training and Fine-tuning LLMs__
-
-
-## [Data Science](./data_science/)
-- https://www.coursera.org/articles/data-science-vs-machine-learning?trk_ref=articles_unified_description_page_recs_card
-- __Preprocessing and Feature Engineering__
-- __Clustering and Dimensionality Reduction__
-- __Time Series Analysis__
-- __Recommendation Systems__
-- __Tools and Frameworks__
-- __Case Studies and Applications__
-
-## [Robotics and Autonomous Systems](./robotics_autonomous/)
-- __Robotics Control Systems__
-- __SLAM (Simultaneous Localization and Mapping)__
-- __Human-Robot Interactions__
-
-## [Computer Vision Techniques](./computer_vision_techniques/)
-- __Image Segmentation__
-- __Pose Estimation__
-- __3D Computer Vision__
-
-## [Emerging Areas in AI](./emerging_areas/)
-- __Quantum Machine Learning__
-- __Neurosymbolic AI__
-- __Edge AI__
-
-## [AI in Domains](./domains/)
-- __Medical Image Analysis__
-- __Algorithmic Trading__
-- __AI for Social Good__
-
-## [AI Safety and Security](./safety_security/)
-- __Adversarial Attacks and Defenses__
-- __Model Robustness__
-- __Bias and Fairness in AI__
-
-## [AI Infrastructure and Deployment](./infrastructure_deployment/)
-- __MLOps__
-- __AI Hardware Accelerators__
+### Resources
+- [Social Media Snippets](resources/social_media_snippets.md)
+- [Executive Summaries](resources/executive_summaries.md)
+- [Article Promotion Strategies](resources/promotion_strategies.md)
